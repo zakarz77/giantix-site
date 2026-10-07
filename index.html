@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Giantix builds web products, CRM systems and custom software that help businesses grow."
+    />
+    <meta name="theme-color" content="#090d18" />
+    <title>Giantix — Build. Innovate. Grow.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#home" aria-label="Giantix home">
+          <svg class="brand-mark" viewBox="0 0 68 68" aria-hidden="true">
+            <defs>
+              <linearGradient id="brand-gradient" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#3158ff" />
+                <stop offset="1" stop-color="#43e6a2" />
+              </linearGradient>
+            </defs>
+            <path d="M3 3h62v23H48v-8H18L3 3Z" fill="url(#brand-gradient)" />
+            <path d="M3 20 49 65H27L3 41V20Z" fill="url(#brand-gradient)" />
+            <path d="M32 34h33v29L32 34Z" fill="url(#brand-gradient)" />
+          </svg>
+          <span>GIANTIX</span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open navigation"
+          aria-expanded="false"
+          aria-controls="main-navigation"
+        >
+          <span></span><span></span><span></span>
+        </button>
+
+        <nav class="main-navigation" id="main-navigation" aria-label="Main navigation">
+          <a class="nav-link is-active" href="#home">Home</a>
+          <a class="nav-link" href="#services">Services</a>
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#contact">Careers</a>
+        </nav>
+
+        <a class="button button-primary header-cta" href="mailto:hello@giantix.com">
+          Get a Quote <span aria-hidden="true">↗</span>
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section-dark" id="home">
+        <div class="container hero-layout">
+          <div class="hero-copy">
+            <p class="eyebrow">BUILD <span>·</span> INNOVATE <span>·</span> GROW</p>
+            <h1>Your ideas.<br />Our code.<br /><span>Real results.</span></h1>
+            <p class="hero-description">
+              Giantix is a team of talented IT professionals building modern web
+              solutions, CRM tools and custom software that help businesses grow
+              and succeed.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="mailto:hello@giantix.com">
+                Start Your Project <span aria-hidden="true">→</span>
+              </a>
+              <a class="button button-outline" href="#portfolio">View Our Work</a>
+            </div>
+          </div>
+
+          <div class="hero-art" aria-label="Preview of a Giantix digital product" role="img">
+            <div class="code-window">
+              <div class="window-dots"><i></i><i></i><i></i></div>
+              <div class="code-lines">
+                <span><b>const</b> future = <em>build</em>(ideas);</span>
+                <span class="indent"><b>if</b> (you.canDream) {</span>
+                <span class="indent-2">ship(<em>somethingGreat</em>);</span>
+                <span class="indent">}</span>
+                <span><b>return</b> <em>realResults</em>;</span>
+              </div>
+            </div>
+            <div class="tablet">
+              <div class="tablet-topbar"><span class="mini-brand"><i>G</i> Giantix</span><span>● ● ●</span></div>
+              <div class="tablet-content">
+                <div class="tablet-title">Better<br />Solutions<br />for a Brighter<br />Future</div>
+                <span class="tiny-pill">Let's build</span>
+                <div class="mountain-scene"><i></i><b></b></div>
+              </div>
+            </div>
+            <div class="laptop-base"></div>
+            <div class="crm-card">
+              <div class="crm-heading"><span class="crm-logo">✦</span> CRM <span class="crm-menu">···</span></div>
+              <div class="crm-label">Total Clients <small>+12%</small></div>
+              <div class="crm-value">1,248 <span>↗</span></div>
+              <svg class="chart" viewBox="0 0 190 55" preserveAspectRatio="none" aria-hidden="true">
+                <path d="M2 46 24 37 43 41 63 22 81 31 104 27 124 13 145 23 165 9 188 4" />
+              </svg>
+              <div class="crm-stats">
+                <div><span>New Leads</span><strong>312 <small>+8%</small></strong></div>
+                <div><span>Active Deals</span><strong>86 <small>+5%</small></strong></div>
+              </div>
+            </div>
+            <div class="hero-note"><span aria-hidden="true">↙</span> Custom solutions<br />for your business</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services section-light" id="services">
+        <div class="container services-layout">
+          <div class="section-intro">
+            <p class="eyebrow eyebrow-light">OUR SERVICES</p>
+            <h2>We build digital solutions<br />that make an impact</h2>
+            <p>
+              From websites to complex CRM systems, we turn your ideas into
+              reliable, scalable and user-friendly products.
+            </p>
+          </div>
+          <div class="services-grid">
+            <article class="service-card">
+              <span class="service-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="13" rx="1.5"/><path d="M8 21h8M12 17v4"/></svg>
+              </span>
+              <h3>Web Development</h3>
+              <p>Modern, fast and responsive websites and web applications that work for your business.</p>
+            </article>
+            <article class="service-card">
+              <span class="service-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.8 20v-1.7a6.2 6.2 0 0 1 12.4 0V20M16 5a3.5 3.5 0 0 1 0 6.8M18 14a5.5 5.5 0 0 1 3.2 5v1"/></svg>
+              </span>
+              <h3>CRM Solutions</h3>
+              <p>Custom CRM tools to manage clients, automate processes and boost your sales.</p>
+            </article>
+            <article class="service-card">
+              <span class="service-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="m8 7-5 5 5 5M16 7l5 5-5 5M14 4l-4 16"/></svg>
+              </span>
+              <h3>Custom Software</h3>
+              <p>Tailored software solutions for your unique business needs.</p>
+            </article>
+            <article class="service-card">
+              <span class="service-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M12 3a9 9 0 0 0 0 18h1.3a2 2 0 0 0 1.4-3.4 1.7 1.7 0 0 1 1.2-2.9H18a3 3 0 0 0 3-3A9 9 0 0 0 12 3Z"/><circle cx="7.5" cy="11" r="1"/><circle cx="10" cy="7.5" r="1"/><circle cx="15" cy="8" r="1"/></svg>
+              </span>
+              <h3>UI/UX Design</h3>
+              <p>Intuitive and beautiful designs that your users will love.</p>
+            </article>
+            <article class="service-card">
+              <span class="service-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M10 13.5a4 4 0 0 0 5.7 0l3.5-3.5a4 4 0 0 0-5.7-5.7l-2 2M14 10.5a4 4 0 0 0-5.7 0l-3.5 3.5a4 4 0 0 0 5.7 5.7l2-2"/></svg>
+              </span>
+              <h3>API Integrations</h3>
+              <p>Connect your systems and automate your workflows.</p>
+            </article>
+            <article class="service-card">
+              <span class="service-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M4 13v-2a8 8 0 0 1 16 0v2M4 13H2v4h4v-4H4Zm16 0h2v4h-4v-4h2ZM18 19a6 6 0 0 1-6 3h-2"/></svg>
+              </span>
+              <h3>Ongoing Support</h3>
+              <p>We're here for you, even after the launch.</p>
+            </article>
+            <div class="service-help">
+              <span class="help-arrow" aria-hidden="true">↗</span>
+              <div>
+                <strong>Not sure what you need?</strong>
+                <p>Let's discuss your idea and find<br class="desktop-break" /> the best solution together.</p>
+                <a href="mailto:hello@giantix.com">Contact Us <span aria-hidden="true">→</span></a>
+              </div>
+            </div>
+          </div>
+          <div class="services-orb" aria-hidden="true"></div>
+        </div>
+      </section>
+
+      <section class="portfolio section-dark" id="portfolio">
+        <div class="container">
+          <div class="portfolio-heading">
+            <div>
+              <p class="eyebrow">OUR PORTFOLIO</p>
+              <h2>Some of our latest projects</h2>
+            </div>
+            <a class="text-link" href="mailto:hello@giantix.com">View All Projects <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="project-grid">
+            <article class="project-card">
+              <div class="project-visual travel-visual" aria-hidden="true">
+                <div class="travel-nav"><span>Discover</span><span>Places &nbsp;&nbsp; About</span></div>
+                <div class="sun"></div><div class="mountain mountain-back"></div><div class="mountain mountain-front"></div>
+                <div class="travel-copy">Explore<br />The World</div>
+                <span class="project-tag">Website</span>
+              </div>
+              <div class="project-info">
+                <h3>Travel Booking Platform</h3>
+                <p>A modern travel booking website with seamless user experience and easy navigation.</p>
+              </div>
+            </article>
+            <article class="project-card">
+              <div class="project-visual crm-visual" aria-hidden="true">
+                <div class="mock-sidebar"><b>G</b><i></i><i></i><i></i><i></i></div>
+                <div class="mock-dashboard">
+                  <div class="mock-top"><strong>Dashboard</strong><span>⌕ &nbsp; ●</span></div>
+                  <div class="mock-metrics"><i></i><i></i><i></i></div>
+                  <div class="mock-chart">
+                    <div class="mock-chart-head">Overview <small>This month⌄</small></div>
+                    <svg viewBox="0 0 260 75" preserveAspectRatio="none"><path d="M2 64 30 48 56 54 81 28 108 40 134 25 161 33 187 12 217 25 258 4"/></svg>
+                  </div>
+                  <div class="mock-table"><i></i><i></i><i></i></div>
+                </div>
+                <span class="project-tag">CRM</span>
+              </div>
+              <div class="project-info">
+                <h3>CRM for Sales Team</h3>
+                <p>Custom CRM to manage leads, track deals and automate routine tasks.</p>
+              </div>
+            </article>
+            <article class="project-card">
+              <div class="project-visual fitness-visual" aria-hidden="true">
+                <div class="phone">
+                  <div class="phone-notch"></div>
+                  <div class="phone-screen">
+                    <div class="fitness-greeting">Good morning,<br /><b>Alex</b></div>
+                    <div class="fitness-ring"><span>72%<small>GOAL</small></span></div>
+                    <div class="fitness-stats"><i></i><i></i></div>
+                    <div class="fitness-bars"><b></b><b></b><b></b><b></b><b></b><b></b><b></b></div>
+                  </div>
+                </div>
+                <span class="project-tag">Web App</span>
+              </div>
+              <div class="project-info">
+                <h3>Fitness Tracking Platform</h3>
+                <p>A web application with personalized workouts, progress tracking and analytics.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-strip section-light" id="about">
+        <div class="container contact-inner" id="contact">
+          <div>
+            <p class="eyebrow eyebrow-light">LET'S WORK TOGETHER</p>
+            <h2>Ready to bring your idea to life?</h2>
+            <p>We're always excited to work on new projects and help businesses<br class="desktop-break" /> build innovative digital solutions. Get in touch with us today!</p>
+          </div>
+          <a class="button button-primary" href="mailto:hello@giantix.com?subject=Free%20consultation">
+            Get a Free Consultation <span aria-hidden="true">→</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer section-dark">
+      <div class="container footer-main">
+        <a class="brand footer-brand" href="#home" aria-label="Giantix home">
+          <svg class="brand-mark" viewBox="0 0 68 68" aria-hidden="true">
+            <defs>
+              <linearGradient id="footer-brand-gradient" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#3158ff" />
+                <stop offset="1" stop-color="#43e6a2" />
+              </linearGradient>
+            </defs>
+            <path d="M3 3h62v23H48v-8H18L3 3Z" fill="url(#footer-brand-gradient)" />
+            <path d="M3 20 49 65H27L3 41V20Z" fill="url(#footer-brand-gradient)" />
+            <path d="M32 34h33v29L32 34Z" fill="url(#footer-brand-gradient)" />
+          </svg>
+          <span>GIANTIX</span>
+        </a>
+        <nav class="footer-navigation" aria-label="Footer navigation">
+          <a href="#home">Home</a><a href="#services">Services</a><a href="#portfolio">Portfolio</a><a href="#about">About</a><a href="#contact">Careers</a>
+        </nav>
+        <div class="social-links" aria-label="Social links">
+          <a href="https://www.linkedin.com/" aria-label="LinkedIn">in</a>
+          <a href="https://github.com/" aria-label="GitHub">⌘</a>
+          <a href="https://x.com/" aria-label="X">𝕏</a>
+          <a href="mailto:hello@giantix.com" aria-label="Email">✉</a>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© <span id="current-year">2025</span> Giantix. All rights reserved.</span>
+        <span>Great ideas. Powerful solutions.</span>
+      </div>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
