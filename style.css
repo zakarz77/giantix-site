@@ -188,6 +188,16 @@ h1, h2, h3 { font-family: Manrope, sans-serif; }
 .about-description p { margin: 0 0 16px; color: #687386; font-size: 17px; line-height: 1.75; }
 .about-description p:last-child { margin-bottom: 0; color: #30394a; }
 
+.process-section { padding: 24px 0 72px; }
+.process-heading { max-width: 900px; margin: 0 auto 34px; text-align: center; }
+.process-heading h2 { margin: 0 0 14px; color: var(--ink); font-size: 38px; line-height: 1.15; letter-spacing: -1.1px; }
+.process-heading > p:last-child { margin: 0 auto; color: #687386; font-size: 16px; line-height: 1.7; }
+.process-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 18px; }
+.process-card { min-height: 100%; padding: 25px 22px 24px; border: 1px solid #e5e8f0; border-radius: 12px; background: #fff; box-shadow: 0 8px 24px #1b294408; }
+.process-number { display: inline-flex; min-width: 43px; height: 34px; align-items: center; justify-content: center; margin-bottom: 20px; border-radius: 8px; color: #4858e8; background: #eef0ff; font: 800 15px Manrope, sans-serif; }
+.process-card h3 { min-height: 48px; margin: 0 0 10px; color: #172033; font-size: 18px; line-height: 1.35; }
+.process-card p { margin: 0; color: #687386; font-size: 14px; line-height: 1.65; }
+
 .contact-strip { padding: 24px 0 23px; }
 .contact-inner { display: flex; align-items: center; justify-content: space-between; gap: 30px; }
 .contact-inner .eyebrow { margin-bottom: 8px; font-size: 10px; letter-spacing: 1.8px; }
@@ -223,6 +233,7 @@ h1, h2, h3 { font-family: Manrope, sans-serif; }
   .services-orb { right: -185px; }
   .project-visual { height: 145px; }
   .about-inner { grid-template-columns: 1fr 2fr; gap: 28px; }
+  .process-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
 @media (max-width: 650px) {
@@ -278,6 +289,15 @@ h1, h2, h3 { font-family: Manrope, sans-serif; }
   .about-inner { grid-template-columns: 1fr; gap: 16px; }
   .about-copy h2 { font-size: 28px; }
   .about-description p { margin-bottom: 12px; font-size: 14px; }
+  .process-section { padding: 12px 0 44px; }
+  .process-heading { margin-bottom: 22px; text-align: left; }
+  .process-heading h2 { font-size: 27px; }
+  .process-heading > p:last-child { font-size: 14px; }
+  .process-grid { grid-template-columns: 1fr; gap: 12px; }
+  .process-card { padding: 20px 18px; }
+  .process-number { margin-bottom: 14px; }
+  .process-card h3 { min-height: 0; font-size: 16px; }
+  .process-card p { font-size: 13px; }
   .contact-strip { padding: 25px 0; }
   .contact-inner { align-items: flex-start; flex-direction: column; gap: 17px; }
   .contact-inner h2 { font-size: 19px; }
