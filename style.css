@@ -376,6 +376,8 @@ body { min-width: 0; overflow-x: clip; }
 .about-section { padding: 72px 0; }
 .about-inner { grid-template-columns: minmax(200px, .7fr) minmax(0, 1.3fr); gap: clamp(36px, 7vw, 100px); }
 .about-copy h2 { font-size: 44px; }
+.about-visual { width: min(100%, 520px); margin-top: 26px; }
+.about-visual svg { width: 100%; height: auto; display: block; overflow: visible; }
 .about-description p { font-size: 17px; line-height: 1.75; }
 .about-highlights { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin-top: 32px; }
 .about-highlight { display: flex; align-items: flex-start; gap: 14px; min-height: 126px; padding: 20px; border: 1px solid #e2e7f1; border-radius: 14px; background: linear-gradient(145deg, #fff, #fbfcff); box-shadow: 0 9px 26px #1b294408; }
@@ -469,6 +471,7 @@ body { min-width: 0; overflow-x: clip; }
   .project-info { min-height: 0; }
   .about-inner { grid-template-columns: 1fr; gap: 18px; }
   .about-copy h2 { font-size: 36px; }
+  .about-visual { width: min(100%, 460px); margin: 4px auto 0; }
   .about-description p { font-size: 16px; }
   .about-highlights { grid-template-columns: 1fr; gap: 10px; margin-top: 22px; }
   .about-highlight { min-height: 0; padding: 16px; }
