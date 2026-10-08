@@ -316,12 +316,12 @@ h1, h2, h3 { font-family: Manrope, sans-serif; }
 :root {
   --blue: #5865f2;
   --blue-light: #54b8ff;
-  --content-width: 1280px;
+  --content-width: 1760px;
 }
 
 html { scroll-padding-top: 92px; }
 body { min-width: 0; overflow-x: clip; }
-.container { width: min(var(--content-width), calc(100% - clamp(32px, 8vw, 128px))); }
+.container { width: min(var(--content-width), calc(100% - clamp(32px, 4vw, 80px))); }
 .skip-link { position: fixed; top: 8px; left: 8px; z-index: 30; padding: 10px 14px; border-radius: 8px; color: #fff; background: #394be7; transform: translateY(-160%); }
 .skip-link:focus { transform: translateY(0); }
 :focus-visible { outline: 3px solid #76baff; outline-offset: 4px; }
