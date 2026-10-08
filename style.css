@@ -329,7 +329,11 @@ body { min-width: 0; overflow-x: clip; }
 .site-header { position: fixed; height: 78px; background: #090d18d9; backdrop-filter: blur(14px); transition: background .2s ease, box-shadow .2s ease; }
 .site-header.is-scrolled { background: #090d18f5; box-shadow: 0 8px 28px #0004; }
 .header-inner { justify-content: space-between; gap: clamp(18px, 3vw, 48px); }
-.brand { width: 172px; height: 52px; }
+.brand { --brand-sprite-width: 142px; width: 150px; height: 47px; display: flex; gap: 8px; }
+.brand-image { width: 1px; height: 1px; position: absolute; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; }
+.brand-mark, .brand-word { height: 100%; flex: none; background-image: url("./public/giantix-horizontal.png"); background-repeat: no-repeat; background-size: var(--brand-sprite-width) auto; }
+.brand-mark { width: calc(var(--brand-sprite-width) * .3); background-position: left center; }
+.brand-word { width: calc(var(--brand-sprite-width) * .7); background-position: right center; }
 .main-navigation { justify-content: center; gap: clamp(18px, 2.6vw, 36px); margin-left: auto; }
 .nav-link { font-size: 15px; }
 .header-cta { flex: none; }
@@ -438,7 +442,7 @@ body { min-width: 0; overflow-x: clip; }
   .container { width: calc(100% - 40px); }
   .site-header { height: 70px; }
   .header-inner { position: relative; gap: 12px; }
-  .brand { width: 148px; height: 45px; }
+  .brand { --brand-sprite-width: 126px; width: 134px; height: 42px; }
   .header-cta { display: none; }
   .menu-toggle { width: 42px; height: 42px; margin-left: auto; border-color: #ffffff2b; }
   .main-navigation { top: 64px; left: 0; right: 0; display: none; gap: 2px; padding: 9px; }
