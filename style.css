@@ -375,6 +375,8 @@ body { min-width: 0; overflow-x: clip; }
 
 .about-section { padding: 72px 0; }
 .about-inner { grid-template-columns: minmax(200px, .7fr) minmax(0, 1.3fr); gap: clamp(36px, 7vw, 100px); }
+.about-copy { position: relative; }
+.about-copy .eyebrow { position: absolute; top: -27px; left: 0; margin: 0; }
 .about-copy h2 { font-size: 44px; }
 .about-visual { width: min(100%, 520px); margin-top: 22px; }
 .about-visual svg { width: 100%; height: auto; display: block; overflow: visible; }
@@ -464,6 +466,7 @@ body { min-width: 0; overflow-x: clip; }
   .project-visual { height: 215px; }
   .project-info { min-height: 0; }
   .about-inner { grid-template-columns: 1fr; gap: 18px; }
+  .about-copy .eyebrow { position: static; margin: 0 0 13px; }
   .about-copy h2 { font-size: 36px; }
   .about-visual { width: min(100%, 460px); margin: 0 auto; }
   .about-description p { font-size: 16px; }
