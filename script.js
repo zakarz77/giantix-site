@@ -57,7 +57,7 @@ if ("IntersectionObserver" in window) {
 }
 
 const revealTargets = document.querySelectorAll(
-  ".section-intro, .service-card, .project-card, .about-description, .process-card, .careers-inner"
+  ".section-intro, .service-card, .project-card, .about-description, .process-card"
 );
 const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 

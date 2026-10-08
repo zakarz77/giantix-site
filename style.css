@@ -405,13 +405,6 @@ body { min-width: 0; overflow-x: clip; }
 .contact-email { display: inline-flex; align-items: center; gap: 9px; color: #c6cce0; font-size: 14px; font-weight: 500; transition: color .2s ease; }
 .contact-email:hover { color: #fff; }
 .contact-email-icon { width: 22px; height: 22px; display: grid; place-items: center; border: 1px solid #ffffff30; border-radius: 50%; color: #aaa3ff; font-size: 12px; }
-.careers-section { padding: 56px 0; border-top: 1px solid #ffffff12; }
-.careers-inner { display: flex; align-items: center; justify-content: space-between; gap: 32px; }
-.careers-inner > div { max-width: 720px; }
-.careers-inner h2 { margin-bottom: 10px; font-size: clamp(27px, 2.6vw, 36px); }
-.careers-inner p:last-child { margin: 0; color: #aeb7c8; font-size: 16px; line-height: 1.7; }
-.careers-inner .button { flex: none; }
-
 .site-footer { padding: 22px 0 18px; }
 .footer-main { min-height: 54px; }
 .footer-brand { width: 156px; height: 46px; }
@@ -484,9 +477,6 @@ body { min-width: 0; overflow-x: clip; }
   .contact-copy h2 { font-size: 34px; letter-spacing: -1px; }
   .contact-copy > p:last-child { font-size: 16px; }
   .contact-actions { min-width: 0; gap: 14px; }
-  .careers-section { padding: 42px 0; }
-  .careers-inner { align-items: flex-start; flex-direction: column; gap: 20px; }
-  .careers-inner p:last-child { font-size: 15px; }
   .footer-main { align-items: flex-start; flex-wrap: wrap; gap: 18px; padding-bottom: 17px; }
   .footer-navigation { order: 3; width: 100%; flex-wrap: wrap; justify-content: flex-start; gap: 12px 20px; }
   .footer-bottom { gap: 10px; font-size: 11px; }
