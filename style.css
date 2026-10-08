@@ -380,7 +380,7 @@ body { min-width: 0; overflow-x: clip; }
 .about-copy h2 { font-size: 44px; }
 .about-visual { width: min(100%, 520px); margin-top: 22px; }
 .about-visual svg { width: 100%; height: auto; display: block; overflow: visible; }
-.about-description { padding-top: 18px; }
+.about-description { padding-top: 42px; }
 .about-description p { font-size: 19px; line-height: 1.8; }
 .technology-stack { margin-top: 29px; }
 .technology-stack h3 { margin: 0 0 13px; color: #202a3a; font-size: 16px; }
