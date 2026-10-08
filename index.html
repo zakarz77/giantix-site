@@ -57,7 +57,7 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./style.css?v=15" />
+    <link rel="stylesheet" href="./style.css?v=16" />
   </head>
   <body>
     <a class="skip-link" href="#main-content">Skip to content</a>
@@ -303,6 +303,56 @@
           <div class="about-copy">
             <p class="eyebrow eyebrow-light">WHO WE ARE</p>
             <h2>About us</h2>
+            <div class="about-visual" aria-hidden="true">
+              <svg viewBox="0 0 560 300" role="presentation">
+                <defs>
+                  <linearGradient id="about-screen" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0" stop-color="#1c2c4b" />
+                    <stop offset="1" stop-color="#10182a" />
+                  </linearGradient>
+                  <linearGradient id="about-accent" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0" stop-color="#4eb7ff" />
+                    <stop offset="1" stop-color="#7060f5" />
+                  </linearGradient>
+                  <linearGradient id="about-line" x1="0" y1="0" x2="1" y2="0">
+                    <stop offset="0" stop-color="#50c7e8" />
+                    <stop offset="1" stop-color="#8271ff" />
+                  </linearGradient>
+                  <filter id="about-shadow" x="-20%" y="-25%" width="150%" height="170%">
+                    <feDropShadow dx="0" dy="16" stdDeviation="14" flood-color="#243353" flood-opacity=".18" />
+                  </filter>
+                </defs>
+                <circle cx="284" cy="147" r="116" fill="#e8edff" />
+                <circle cx="284" cy="147" r="91" fill="none" stroke="#ccd5fa" stroke-dasharray="3 8" />
+                <g filter="url(#about-shadow)" transform="rotate(-5 272 147)">
+                  <rect x="93" y="58" width="344" height="195" rx="18" fill="#dfe5f3" />
+                  <rect x="101" y="48" width="344" height="195" rx="18" fill="#fff" stroke="#d6deed" />
+                  <path d="M119 48h308a18 18 0 0 1 18 18v17H101V66a18 18 0 0 1 18-18Z" fill="#f3f5fb" />
+                  <circle cx="120" cy="66" r="3.5" fill="#fb7185" />
+                  <circle cx="133" cy="66" r="3.5" fill="#f4bf5b" />
+                  <circle cx="146" cy="66" r="3.5" fill="#52c79a" />
+                  <rect x="119" y="98" width="136" height="123" rx="10" fill="url(#about-screen)" />
+                  <path d="m137 122 9-7 9 7-9 7-9-7Zm32 0h39m-39 18h55m-55 18h36m-36 18h49" fill="none" stroke="#93a5dc" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" />
+                  <path d="m137 122 9-7 9 7-9 7-9-7Z" fill="url(#about-accent)" stroke="none" />
+                  <rect x="269" y="99" width="156" height="57" rx="10" fill="#f3f6fc" />
+                  <rect x="283" y="112" width="40" height="31" rx="7" fill="#e6eaff" />
+                  <path d="M292 134v-8m8 8v-14m8 14v-10" stroke="#655cf1" stroke-linecap="round" stroke-width="3" />
+                  <path d="M333 116h75m-75 10h58m-58 10h66" stroke="#c6cede" stroke-linecap="round" stroke-width="4" />
+                  <rect x="269" y="167" width="156" height="54" rx="10" fill="#f3f6fc" />
+                  <path d="M284 205c14-2 17-18 31-14s15 13 29 3 17 0 28-12 17 6 34-5" fill="none" stroke="url(#about-line)" stroke-linecap="round" stroke-width="3" />
+                  <path d="M284 209h126" stroke="#d9dfeb" stroke-linecap="round" stroke-width="2" />
+                </g>
+                <g filter="url(#about-shadow)">
+                  <rect x="356" y="31" width="126" height="48" rx="12" fill="#fff" />
+                  <circle cx="379" cy="55" r="10" fill="#e8f8f4" />
+                  <path d="m375 55 3 3 6-7" fill="none" stroke="#29ae8b" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                  <path d="M398 50h66m-66 10h44" stroke="#c6cede" stroke-linecap="round" stroke-width="4" />
+                </g>
+                <circle cx="85" cy="185" r="6" fill="#55b9f1" />
+                <circle cx="474" cy="218" r="5" fill="#7164f5" />
+                <path d="M82 166v-16m-8 8h16m370 82v-13m-7 6h14" stroke="#a0aef0" stroke-linecap="round" stroke-width="2" />
+              </svg>
+            </div>
           </div>
           <div class="about-description">
             <p>We are a forward-thinking IT development company specializing in practical digital solutions shaped around real business challenges.</p>
