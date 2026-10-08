@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zakarz77.github.io/giantix-site/sitemap.xml

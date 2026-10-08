@@ -5,10 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Giantix builds web products, CRM systems and custom software that help businesses grow."
+      content="Giantix builds websites, mobile apps, custom software, CRM systems and AI automation to help businesses grow."
     />
+    <meta name="robots" content="index, follow" />
     <meta name="theme-color" content="#090d18" />
-    <title>Giantix — Build. Innovate. Grow.</title>
+    <link rel="canonical" href="https://zakarz77.github.io/giantix-site/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Giantix" />
+    <meta property="og:title" content="Giantix — Digital solutions for business growth" />
+    <meta
+      property="og:description"
+      content="Websites, mobile apps, custom software, CRM systems and AI automation built around your business."
+    />
+    <meta property="og:url" content="https://zakarz77.github.io/giantix-site/" />
+    <meta property="og:image" content="https://zakarz77.github.io/giantix-site/public/giantix-horizontal.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Giantix — Digital solutions for business growth" />
+    <meta
+      name="twitter:description"
+      content="Websites, mobile apps, custom software, CRM systems and AI automation built around your business."
+    />
+    <meta name="twitter:image" content="https://zakarz77.github.io/giantix-site/public/giantix-horizontal.png" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://zakarz77.github.io/giantix-site/#organization",
+            "name": "Giantix",
+            "url": "https://zakarz77.github.io/giantix-site/",
+            "email": "giantixit@gmail.com",
+            "logo": "https://zakarz77.github.io/giantix-site/public/giantix-horizontal.png"
+          },
+          {
+            "@type": "ProfessionalService",
+            "@id": "https://zakarz77.github.io/giantix-site/#service",
+            "name": "Giantix",
+            "url": "https://zakarz77.github.io/giantix-site/",
+            "email": "giantixit@gmail.com",
+            "description": "Digital product development, custom software, CRM and ERP systems, mobile applications, e-commerce, design, and business automation.",
+            "provider": { "@id": "https://zakarz77.github.io/giantix-site/#organization" }
+          }
+        ]
+      }
+    </script>
+    <title>Giantix — Digital Solutions for Business Growth</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,6 +60,7 @@
     <link rel="stylesheet" href="./style.css?v=8" />
   </head>
   <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
     <header class="site-header">
       <div class="container header-inner">
         <a class="brand" href="#home" aria-label="Giantix home">
@@ -35,62 +78,34 @@
         </button>
 
         <nav class="main-navigation" id="main-navigation" aria-label="Main navigation">
-          <a class="nav-link is-active" href="#home">Home</a>
+          <a class="nav-link is-active" href="#home" aria-current="location">Home</a>
           <a class="nav-link" href="#services">Services</a>
           <a class="nav-link" href="#portfolio">Portfolio</a>
           <a class="nav-link" href="#about">About</a>
-          <a class="nav-link" href="#contact">Careers</a>
+          <a class="nav-link" href="#careers">Careers</a>
         </nav>
 
-        <a class="button button-primary header-cta" href="mailto:giantixit@gmail.com">
-          Get a Quote <span aria-hidden="true">↗</span>
+        <a class="button button-primary header-cta" href="#contact">
+          Get a Quote <span aria-hidden="true">→</span>
         </a>
       </div>
     </header>
 
-    <main>
+    <main id="main-content">
       <section class="hero section-dark" id="home">
         <div class="container hero-layout">
           <div class="hero-copy">
             <p class="eyebrow">BUILD <span>·</span> INNOVATE <span>·</span> GROW</p>
             <h1>Your ideas.<br />Our code.<br /><span>Real results.</span></h1>
             <div class="hero-description">
-              <p>
-                Giantix is a team of talented IT professionals delivering
-                innovative digital solutions that help businesses grow,
-                automate operations, and succeed in the digital world.
-              </p>
-              <p>
-                We specialize in <strong>web development, custom software, CRM and
-                ERP systems, mobile applications, e-commerce platforms, UI/UX
-                design, AI-powered solutions, chatbots, API integrations, business
-                process automation, cloud solutions, database development, and IT
-                consulting.</strong>
-              </p>
-              <p>
-                From landing pages and corporate websites to complex enterprise
-                systems, SaaS platforms, online marketplaces, and scalable business
-                applications, we build secure, high-performance, and user-friendly
-                solutions tailored to your needs.
-              </p>
-              <p>
-                Our expertise includes <strong>WordPress, Shopify, Tilda, React,
-                Next.js, .NET, C#, Python, JavaScript, SQL, and modern cloud
-                technologies.</strong>
-              </p>
-              <p>
-                Whether you're a startup, small business, or established enterprise,
-                Giantix transforms your ideas into powerful digital products.
-              </p>
-              <p class="hero-tagline">
-                <strong>Giantix — Your Vision. Our Technology. Your Success.</strong>
-              </p>
+              <p>Giantix builds powerful digital solutions that help businesses grow.</p>
+              <p>From websites and mobile apps to custom software, CRM systems, and AI automation — we turn your ideas into real results.</p>
             </div>
             <div class="hero-actions">
-              <a class="button button-primary" href="mailto:giantixit@gmail.com">
+              <a class="button button-primary" href="#contact">
                 Start Your Project <span aria-hidden="true">→</span>
               </a>
-              <a class="button button-outline" href="#portfolio">View Our Work</a>
+              <a class="button button-outline" href="#services">Explore Our Services</a>
             </div>
           </div>
 
@@ -113,19 +128,19 @@
                 <div class="mountain-scene"><i></i><b></b></div>
                 <div class="screen-dashboard" aria-hidden="true">
                   <div class="screen-dashboard-heading">
-                    <span>PROJECT OVERVIEW</span>
+                        <span>PROJECT PREVIEW</span>
                     <i></i>
                   </div>
                   <div class="screen-dashboard-metric">
-                    <strong>+28.4%</strong>
-                    <span>monthly growth</span>
+                        <strong>In progress</strong>
+                        <span>sample interface</span>
                   </div>
                   <svg class="screen-dashboard-chart" viewBox="0 0 150 42" preserveAspectRatio="none">
                     <path d="M2 34 22 27 39 31 58 19 76 23 96 11 113 17 132 7 148 9" />
                   </svg>
                   <div class="screen-dashboard-footer">
                     <span><i></i> Product launch</span>
-                    <b>On track</b>
+                    <b>Concept</b>
                   </div>
                 </div>
               </div>
@@ -133,14 +148,14 @@
             <div class="laptop-base"></div>
             <div class="crm-card">
               <div class="crm-heading"><span class="crm-logo">✦</span> CRM <span class="crm-menu">···</span></div>
-              <div class="crm-label">Total Clients <small>+12%</small></div>
-              <div class="crm-value">1,248 <span>↗</span></div>
+              <div class="crm-label">Client records <small>Sample</small></div>
+              <div class="crm-value">CRM <span>↗</span></div>
               <svg class="chart" viewBox="0 0 190 55" preserveAspectRatio="none" aria-hidden="true">
                 <path d="M2 46 24 37 43 41 63 22 81 31 104 27 124 13 145 23 165 9 188 4" />
               </svg>
               <div class="crm-stats">
-                <div><span>New Leads</span><strong>312 <small>+8%</small></strong></div>
-                <div><span>Active Deals</span><strong>86 <small>+5%</small></strong></div>
+                <div><span>New leads</span><strong>•••</strong></div>
+                <div><span>Active deals</span><strong>•••</strong></div>
               </div>
             </div>
             <div class="hero-note"><span aria-hidden="true">↙</span> Custom solutions<br />for your business</div>
@@ -160,55 +175,59 @@
           </div>
           <div class="services-grid">
             <article class="service-card">
-              <span class="service-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="13" rx="1.5"/><path d="M8 21h8M12 17v4"/></svg>
-              </span>
+              <span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="13" rx="1.5"/><path d="M8 21h8M12 17v4"/></svg></span>
               <h3>Web Development</h3>
-              <p>Modern, fast and responsive websites and web applications that work for your business.</p>
+              <p>Fast, responsive websites and web apps built to turn visits into useful customer journeys.</p>
             </article>
             <article class="service-card">
-              <span class="service-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.8 20v-1.7a6.2 6.2 0 0 1 12.4 0V20M16 5a3.5 3.5 0 0 1 0 6.8M18 14a5.5 5.5 0 0 1 3.2 5v1"/></svg>
-              </span>
-              <h3>CRM Solutions</h3>
-              <p>Custom CRM tools to manage clients, automate processes and boost your sales.</p>
+              <span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m8 7-5 5 5 5M16 7l5 5-5 5M14 4l-4 16"/></svg></span>
+              <h3>Custom Software Development</h3>
+              <p>Purpose-built software that fits your workflows and gives your team the right tools.</p>
             </article>
             <article class="service-card">
-              <span class="service-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24"><path d="m8 7-5 5 5 5M16 7l5 5-5 5M14 4l-4 16"/></svg>
-              </span>
-              <h3>Custom Software</h3>
-              <p>Tailored software solutions for your unique business needs.</p>
+              <span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.8 20v-1.7a6.2 6.2 0 0 1 12.4 0V20M16 5a3.5 3.5 0 0 1 0 6.8M18 14a5.5 5.5 0 0 1 3.2 5v1"/></svg></span>
+              <h3>CRM &amp; ERP Solutions</h3>
+              <p>Bring customer and business operations into clearer, more connected workflows.</p>
             </article>
             <article class="service-card">
-              <span class="service-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24"><path d="M12 3a9 9 0 0 0 0 18h1.3a2 2 0 0 0 1.4-3.4 1.7 1.7 0 0 1 1.2-2.9H18a3 3 0 0 0 3-3A9 9 0 0 0 12 3Z"/><circle cx="7.5" cy="11" r="1"/><circle cx="10" cy="7.5" r="1"/><circle cx="15" cy="8" r="1"/></svg>
-              </span>
+              <span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M10 18h4"/></svg></span>
+              <h3>Mobile App Development</h3>
+              <p>Useful mobile experiences that keep your services close at hand.</p>
+            </article>
+            <article class="service-card">
+              <span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 3h2l2.4 12.2a2 2 0 0 0 2 1.6h8.8a2 2 0 0 0 2-1.6L22 8H6"/><circle cx="10" cy="21" r="1"/><circle cx="18" cy="21" r="1"/></svg></span>
+              <h3>E-commerce Development</h3>
+              <p>Online stores designed to make product discovery and checkout straightforward.</p>
+            </article>
+            <article class="service-card">
+              <span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3v3M12 18v3M4.2 4.2l2.1 2.1m11.4 11.4 2.1 2.1M3 12h3m12 0h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/><circle cx="12" cy="12" r="5"/></svg></span>
+              <h3>AI &amp; Business Automation</h3>
+              <p>Reduce repetitive work and connect processes with practical automation.</p>
+            </article>
+            <article class="service-card">
+              <span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3h11A2.5 2.5 0 0 1 20 5.5v13a2.5 2.5 0 0 1-2.5 2.5h-11A2.5 2.5 0 0 1 4 18.5zM8 8h8M8 12h8M8 16h4"/></svg></span>
+              <h3>SaaS Development</h3>
+              <p>Scalable product foundations for subscription services and online platforms.</p>
+            </article>
+            <article class="service-card">
+              <span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 4h7v7H4zM13 4h7v7h-7zM4 13h7v7H4zM13 13h7v7h-7z"/></svg></span>
               <h3>UI/UX Design</h3>
-              <p>Intuitive and beautiful designs that your users will love.</p>
+              <p>Clear, intuitive interfaces that help people complete tasks with confidence.</p>
             </article>
             <article class="service-card">
-              <span class="service-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24"><path d="M10 13.5a4 4 0 0 0 5.7 0l3.5-3.5a4 4 0 0 0-5.7-5.7l-2 2M14 10.5a4 4 0 0 0-5.7 0l-3.5 3.5a4 4 0 0 0 5.7 5.7l2-2"/></svg>
-              </span>
-              <h3>API Integrations</h3>
-              <p>Connect your systems and automate your workflows.</p>
+              <span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M10 13.5a4 4 0 0 0 5.7 0l3.5-3.5a4 4 0 0 0-5.7-5.7l-2 2M14 10.5a4 4 0 0 0-5.7 0l-3.5 3.5a4 4 0 0 0 5.7 5.7l2-2"/></svg></span>
+              <h3>API &amp; System Integrations</h3>
+              <p>Connect the tools you already use and keep information moving between them.</p>
             </article>
             <article class="service-card">
-              <span class="service-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24"><path d="M4 13v-2a8 8 0 0 1 16 0v2M4 13H2v4h4v-4H4Zm16 0h2v4h-4v-4h2ZM18 19a6 6 0 0 1-6 3h-2"/></svg>
-              </span>
-              <h3>Ongoing Support</h3>
-              <p>We're here for you, even after the launch.</p>
+              <span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 13v-2a8 8 0 0 1 16 0v2M4 13H2v4h4v-4H4Zm16 0h2v4h-4v-4h2ZM18 19a6 6 0 0 1-6 3h-2"/></svg></span>
+              <h3>Support &amp; Maintenance</h3>
+              <p>Keep your product reliable, maintained, and ready to evolve after launch.</p>
             </article>
-            <div class="service-help">
-              <span class="help-arrow" aria-hidden="true">↗</span>
-              <div>
-                <strong>Not sure what you need?</strong>
-                <p>Let's discuss your idea and find<br class="desktop-break" /> the best solution together.</p>
-                <a href="mailto:giantixit@gmail.com">Contact Us <span aria-hidden="true">→</span></a>
-              </div>
-            </div>
+          </div>
+          <div class="services-cta">
+            <p>Not sure where to start? Let's find the right solution for your business.</p>
+            <a class="button button-primary" href="#contact">Talk to our team <span aria-hidden="true">→</span></a>
           </div>
           <div class="services-orb" aria-hidden="true"></div>
         </div>
@@ -221,9 +240,9 @@
               <p class="eyebrow">OUR PORTFOLIO</p>
               <h2>Some of our latest projects</h2>
             </div>
-            <a class="text-link" href="mailto:giantixit@gmail.com">View All Projects <span aria-hidden="true">→</span></a>
+            <a class="text-link" href="#project-list">View All Projects <span aria-hidden="true">→</span></a>
           </div>
-          <div class="project-grid">
+          <div class="project-grid" id="project-list">
             <article class="project-card">
               <div class="project-visual travel-visual" aria-hidden="true">
                 <div class="travel-nav"><span>Discover</span><span>Places &nbsp;&nbsp; About</span></div>
@@ -232,8 +251,9 @@
                 <span class="project-tag">Website</span>
               </div>
               <div class="project-info">
+                <p class="project-kind">Demo project · Concept</p>
                 <h3>Travel Booking Platform</h3>
-                <p>A modern travel booking website with seamless user experience and easy navigation.</p>
+                <p>Concept for a travel website focused on destination discovery, trip planning, and a clear booking journey.</p>
               </div>
             </article>
             <article class="project-card">
@@ -251,8 +271,9 @@
                 <span class="project-tag">CRM</span>
               </div>
               <div class="project-info">
+                <p class="project-kind">Demo project · Concept</p>
                 <h3>CRM for Sales Team</h3>
-                <p>Custom CRM to manage leads, track deals and automate routine tasks.</p>
+                <p>Concept for a CRM interface that organizes lead details, deal stages, and everyday sales workflows.</p>
               </div>
             </article>
             <article class="project-card">
@@ -261,7 +282,7 @@
                   <div class="phone-notch"></div>
                   <div class="phone-screen">
                     <div class="fitness-greeting">Good morning,<br /><b>Alex</b></div>
-                    <div class="fitness-ring"><span>72%<small>GOAL</small></span></div>
+                    <div class="fitness-ring"><span>APP<small>DEMO</small></span></div>
                     <div class="fitness-stats"><i></i><i></i></div>
                     <div class="fitness-bars"><b></b><b></b><b></b><b></b><b></b><b></b><b></b></div>
                   </div>
@@ -269,8 +290,9 @@
                 <span class="project-tag">Web App</span>
               </div>
               <div class="project-info">
+                <p class="project-kind">Demo project · Concept</p>
                 <h3>Fitness Tracking Platform</h3>
-                <p>A web application with personalized workouts, progress tracking and analytics.</p>
+                <p>Concept for a fitness app with workout discovery and a sample activity dashboard.</p>
               </div>
             </article>
           </div>
@@ -284,8 +306,15 @@
             <h2>About us</h2>
           </div>
           <div class="about-description">
-            <p>We are a forward-thinking IT development company specializing in delivering advanced technological solutions.</p>
-            <p>Our primary goal is to bridge the gap between business challenges and technological innovation by providing businesses of all sizes with the tools they need to grow, scale, and succeed in an ever-changing digital landscape.</p>
+            <p>We are a forward-thinking IT development company specializing in practical digital solutions shaped around real business challenges.</p>
+            <p>We help businesses of all sizes turn ideas into secure, scalable products — with thoughtful design, modern technology, transparent communication, and support beyond launch.</p>
+            <div class="technology-stack" aria-label="Technologies Giantix works with">
+              <h3>Technology stack</h3>
+              <ul class="technology-list">
+                <li>WordPress</li><li>Shopify</li><li>Tilda</li><li>React</li><li>Next.js</li>
+                <li>.NET</li><li>C#</li><li>Python</li><li>JavaScript</li><li>SQL</li><li>Cloud</li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
@@ -301,22 +330,22 @@
             <article class="process-card">
               <span class="process-number">01</span>
               <h3>Discovery &amp; Strategy</h3>
-              <p>We start by understanding your business, goals, and challenges. Together, we define a clear strategy, project scope, timeline, and budget — so you know exactly what to expect.</p>
+              <p>We learn about your goals and challenges, then agree on project scope, timeline, and budget.</p>
             </article>
             <article class="process-card">
               <span class="process-number">02</span>
               <h3>Solutions Built Around You</h3>
-              <p>No one-size-fits-all approach. We design and develop scalable, secure, and user-friendly solutions tailored to your business needs and long-term growth.</p>
+              <p>We shape a secure, scalable, and user-friendly solution around your needs and future plans.</p>
             </article>
             <article class="process-card">
               <span class="process-number">03</span>
               <h3>Transparent &amp; Agile Development</h3>
-              <p>Stay involved at every stage. Through regular updates, clear milestones, and continuous feedback, we keep your project on track and aligned with your vision.</p>
+              <p>Regular updates, clear milestones, and feedback keep the work aligned with your vision.</p>
             </article>
             <article class="process-card">
               <span class="process-number">04</span>
               <h3>Quality, Launch &amp; Ongoing Support</h3>
-              <p>Before launch, we carefully test every detail to ensure performance, security, and reliability. After delivery, we're here to support, maintain, and improve your solution as your business grows.</p>
+              <p>We test before launch and can help maintain and improve your product as it grows.</p>
             </article>
           </div>
         </div>
@@ -325,12 +354,25 @@
       <section class="contact-strip section-light" id="contact">
         <div class="container contact-inner">
           <div>
-            <p class="eyebrow eyebrow-light">LET'S WORK TOGETHER</p>
-            <h2>Ready to bring your idea to life?</h2>
-            <p>We're always excited to work on new projects and help businesses<br class="desktop-break" /> build innovative digital solutions. Get in touch with us today!</p>
+            <p class="eyebrow eyebrow-light">LET'S BUILD SOMETHING GREAT</p>
+            <h2>Tell us what you're looking to build.</h2>
+            <p>Share your idea with our team at <a href="mailto:giantixit@gmail.com">giantixit@gmail.com</a>.</p>
           </div>
-          <a class="button button-primary" href="mailto:giantixit@gmail.com?subject=Free%20consultation">
-            Get a Free Consultation <span aria-hidden="true">→</span>
+          <a class="button button-primary" href="mailto:giantixit@gmail.com?subject=Start%20a%20project">
+            Start Your Project <span aria-hidden="true">→</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="careers-section section-dark" id="careers">
+        <div class="container careers-inner">
+          <div>
+            <p class="eyebrow">CAREERS</p>
+            <h2>Interested in working with Giantix?</h2>
+            <p>There are no listed openings right now. If you'd like us to keep your details on file, send your CV and a short introduction by email.</p>
+          </div>
+          <a class="button button-outline" href="mailto:giantixit@gmail.com?subject=Career%20inquiry">
+            Send an open application <span aria-hidden="true">→</span>
           </a>
         </div>
       </section>
@@ -342,17 +384,14 @@
           <img class="brand-image" src="./public/giantix-horizontal.png" alt="Giantix" />
         </a>
         <nav class="footer-navigation" aria-label="Footer navigation">
-          <a href="#home">Home</a><a href="#services">Services</a><a href="#portfolio">Portfolio</a><a href="#about">About</a><a href="#contact">Careers</a>
+          <a href="#home">Home</a><a href="#services">Services</a><a href="#portfolio">Portfolio</a><a href="#about">About</a><a href="#careers">Careers</a>
         </nav>
-        <div class="social-links" aria-label="Social links">
-          <a href="https://www.linkedin.com/" aria-label="LinkedIn">in</a>
-          <a href="https://github.com/" aria-label="GitHub">⌘</a>
-          <a href="https://x.com/" aria-label="X">𝕏</a>
-          <a href="mailto:giantixit@gmail.com" aria-label="Email">✉</a>
+        <div class="social-links">
+          <a href="mailto:giantixit@gmail.com" aria-label="Email Giantix">giantixit@gmail.com</a>
         </div>
       </div>
       <div class="container footer-bottom">
-        <span>© <span id="current-year">2025</span> Giantix. All rights reserved.</span>
+        <span>© <span id="current-year"></span> Giantix. All rights reserved.</span>
         <span>Great ideas. Powerful solutions.</span>
       </div>
     </footer>
