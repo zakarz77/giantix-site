@@ -392,12 +392,19 @@ body { min-width: 0; overflow-x: clip; }
 .process-card h3 { min-height: 54px; font-size: 19px; }
 .process-card p { font-size: 15px; line-height: 1.7; }
 
-.contact-strip { padding: 54px 0; }
-.contact-inner { gap: 35px; }
-.contact-inner h2 { font-size: clamp(28px, 3vw, 38px); }
-.contact-inner p:last-child { font-size: 16px; }
-.contact-inner p a { color: #374bd7; font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
-.contact-inner .button { min-height: 50px; }
+.contact-strip { padding: clamp(48px, 6vw, 88px) 0; }
+.contact-inner { position: relative; display: flex; align-items: center; justify-content: space-between; gap: 36px; overflow: hidden; padding: clamp(30px, 5vw, 66px); border: 1px solid #333d69; border-radius: 24px; color: #f7f8ff; background: radial-gradient(ellipse at 90% 10%, #5349be55, transparent 38%), linear-gradient(120deg, #10182b, #111326 70%, #171334); box-shadow: 0 24px 70px #1118271c; }
+.contact-inner::after { content: ""; width: 310px; height: 310px; position: absolute; top: -210px; right: 18%; border: 1px solid #9890ff22; border-radius: 50%; box-shadow: 0 0 0 35px #9890ff09, 0 0 0 70px #9890ff06; pointer-events: none; }
+.contact-copy, .contact-actions { position: relative; z-index: 1; }
+.contact-copy { max-width: 690px; }
+.contact-copy .eyebrow { color: #a5adff; }
+.contact-copy h2 { margin: 0 0 10px; font-size: clamp(32px, 4vw, 50px); line-height: 1.12; letter-spacing: -1.6px; }
+.contact-copy > p:last-child { margin: 0; color: #b4bdd0; font-size: 17px; line-height: 1.65; }
+.contact-actions { display: flex; min-width: 235px; flex-direction: column; align-items: flex-start; gap: 17px; }
+.contact-actions .button { min-height: 52px; }
+.contact-email { display: inline-flex; align-items: center; gap: 9px; color: #c6cce0; font-size: 14px; font-weight: 500; transition: color .2s ease; }
+.contact-email:hover { color: #fff; }
+.contact-email-icon { width: 22px; height: 22px; display: grid; place-items: center; border: 1px solid #ffffff30; border-radius: 50%; color: #aaa3ff; font-size: 12px; }
 .careers-section { padding: 56px 0; border-top: 1px solid #ffffff12; }
 .careers-inner { display: flex; align-items: center; justify-content: space-between; gap: 32px; }
 .careers-inner > div { max-width: 720px; }
@@ -472,10 +479,11 @@ body { min-width: 0; overflow-x: clip; }
   .process-card { padding: 19px 17px; }
   .process-card h3 { min-height: 0; font-size: 17px; }
   .process-card p { font-size: 14px; }
-  .contact-strip { padding: 38px 0; }
-  .contact-inner { align-items: flex-start; flex-direction: column; gap: 19px; }
-  .contact-inner h2 { font-size: 28px; }
-  .contact-inner p:last-child { font-size: 15px; }
+  .contact-strip { padding: 48px 0; }
+  .contact-inner { align-items: flex-start; flex-direction: column; gap: 24px; padding: 28px 24px; border-radius: 19px; }
+  .contact-copy h2 { font-size: 34px; letter-spacing: -1px; }
+  .contact-copy > p:last-child { font-size: 16px; }
+  .contact-actions { min-width: 0; gap: 14px; }
   .careers-section { padding: 42px 0; }
   .careers-inner { align-items: flex-start; flex-direction: column; gap: 20px; }
   .careers-inner p:last-child { font-size: 15px; }
